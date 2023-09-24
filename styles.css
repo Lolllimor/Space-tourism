@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -7,13 +9,75 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background: url(./images/Bitmap.svg) no-repeat ;
   height: 100vh;
 }
 
-.wrapper {
-  background: linear-gradient(0deg, rgba(11, 13, 23, 0.1), rgba(11, 13, 23, 0.1)), url(./images/Bitmap.svg) ;
-  width: 100vw;
-  height: 100vh;
+
+/* NAVBAR */
+nav {
+  position: relative;
+  padding: 25px 0 !important;
+  font-family: 'Barlow Condensed', sans-serif;
 }
+
+.navbar-brand {
+  padding:0 50px !important;
+}
+
+.navbar-collapse {
+  padding: 0 110px 0 0;
+  margin-left: 470px;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(40.774227142333984px);
+  height: 80px;
+}
+
+.hline {
+  height: 1px;
+  width: 455px;
+  background-color: #ffffff33;
+  position: absolute;
+  left: 15vw;
+  z-index: 1;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-link {
+  letter-spacing: 2px;
+  white-space: nowrap;
+  color: #fff;
+}
+
+
+.nav-no {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.navbar-nav > li {
+  display: flex;
+  gap: 15px;
+  float: left;
+  position: relative;
+}
+
+.navbar-nav .active a::after {
+  content: " ";
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 55%; 
+  bottom: -10px;
+  border-bottom: 2px solid #fff; 
+}
+
+.nav-item {
+  padding: 12px 15px
+}
+
