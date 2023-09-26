@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background: url(./images/Bitmap.svg) no-repeat ;
+  background: url(../images/home.svg) no-repeat ;
   height: 100vh;
 }
 
@@ -105,7 +105,7 @@ main {
 
 .travel p {
   font-family: 'Barlow', sans-serif;
-  width: 42%;
+  width: 49%;
   color: #D0D6F9;
   line-height: 1.5;
 }

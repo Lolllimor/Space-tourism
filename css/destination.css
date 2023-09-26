@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: url(../images/destination.svg) no-repeat;
+  height: 100vh;
+}
+
+/* NAVBAR */
+nav {
+  position: relative;
+  padding: 25px 0 !important;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.navbar-brand {
+  padding: 0 50px !important;
+}
+
+.navbar-collapse {
+  padding: 0 110px 0 0;
+  margin-left: 470px;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(40.774227142333984px);
+  height: 80px;
+}
+
+.hline {
+  height: 1px;
+  width: 455px;
+  background-color: #ffffff33;
+  position: absolute;
+  left: 15vw;
+  z-index: 1;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-link {
+  letter-spacing: 2px;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.nav-no {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.navbar-nav > li {
+  display: flex;
+  gap: 15px;
+  float: left;
+  position: relative;
+}
+
+.nav-item {
+  padding: 12px 15px;
+}
+
+.navbar-nav .active a::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
+  bottom: -10px;
+  border-bottom: 2px solid #fff;
+}
+
+.wrapper {
+  margin: 0 120px;
+  display: flex;
+}
+
+.no {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+}
+
+.pick h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  letter-spacing: 4.5px;
+  margin: 20px 0 50px;
+}
+
+.pick h3 span {
+  color: #ffffff40;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.pick img {
+  margin-left: 70px;
+}
+
+.moon {
+  margin-left: 250px;
+}
+
+ul.desti {
+  margin: 50px 80px 30px 0;
+  letter-spacing: 2.7px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+ul.desti .active {
+  border-bottom: 2px solid #fff;
+}
+
+.desti li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.moon h2 {
+  font-family: "Bellefair", serif;
+  font-size: 100px;
+}
+
+.moon p {
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif;
+  line-height: 25px;
+  font-size: 16px;
+  width: 105%;
+}
+
+hr {
+  width: 380px;
+  height: 1px;
+  flex-shrink: 0;
+}
+
+.travel {
+  display: flex;
+  margin-top: 30px;
+}
+
+.distance {
+  margin-right: 80px;
+}
+
+.distance h6, .time h6{
+  color: #D0D6F9;
+font-family: Barlow Condensed;
+font-size: 14px;
+}
+
+.distance h4, .time h4 {
+  font-family: 'Bellefair', serif;
+}
