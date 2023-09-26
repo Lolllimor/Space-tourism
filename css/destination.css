@@ -41,10 +41,10 @@ nav {
 
 .hline {
   height: 1px;
-  width: 455px;
+  width: 500px;
   background-color: #ffffff33;
   position: absolute;
-  left: 15vw;
+  left: 10vw;
   z-index: 1;
 }
 
