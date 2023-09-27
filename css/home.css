@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.nav-link:hover {
+  color: #fff !important; 
+}
+
 body {
   display: flex;
   flex-direction: column;

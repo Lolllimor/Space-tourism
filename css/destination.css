@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.nav-link:hover {
+  color: #fff !important; 
+}
+
 a {
   text-decoration: none;
   color: #fff;

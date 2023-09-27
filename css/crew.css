@@ -157,3 +157,7 @@ cursor: pointer;
 .engineer img {
   margin-top: 69px;
 }
+
+.nav-link:hover {
+  color: #fff !important; 
+}
